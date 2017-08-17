@@ -11,6 +11,7 @@ import { FunAppComponent } from './app.component';
     BrowserModule
   ],
   providers: [],
-  bootstrap: [FunAppComponent]
+  bootstrap: [FunAppComponent],
+  exports: [FunAppComponent]
 })
 export class FunAppModule { }
