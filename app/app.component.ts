@@ -15,7 +15,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'funapp-root',
-  template: '<h1> Hello Aoo </h1>'
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
 })
 export class FunAppComponent {
   title = 'app';
